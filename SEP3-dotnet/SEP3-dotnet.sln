@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationTier", "PresentationTier", "{71E7F09D-E6E6-4546-8492-4C4FE594B5BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataTier", "DataTier", "{1D81AE3D-34D7-49D6-88AB-021ADD3BD978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWASM", "BlazorWASM\BlazorWASM.csproj", "{8789FE4B-4144-4287-9210-A4CF82258A9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8789FE4B-4144-4287-9210-A4CF82258A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8789FE4B-4144-4287-9210-A4CF82258A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8789FE4B-4144-4287-9210-A4CF82258A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8789FE4B-4144-4287-9210-A4CF82258A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8789FE4B-4144-4287-9210-A4CF82258A9B} = {71E7F09D-E6E6-4546-8492-4C4FE594B5BA}
+	EndGlobalSection
+EndGlobal
