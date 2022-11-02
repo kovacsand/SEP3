@@ -5,7 +5,7 @@
     <projectFile profileName="IIS Express">BlazorWASM/BlazorWASM.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a2901ba-4307-48c9-9051-6c8070482ccc" name="Changes" comment="initial blazor wasm commit with gitignore" />
+    <list default="true" id="9a2901ba-4307-48c9-9051-6c8070482ccc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667381149750</updated>
-      <workItem from="1667381149754" duration="723000" />
+      <workItem from="1667381149754" duration="1567000" />
     </task>
     <task id="LOCAL-00001" summary="initial blazor wasm commit with gitignore">
       <created>1667381829774</created>
