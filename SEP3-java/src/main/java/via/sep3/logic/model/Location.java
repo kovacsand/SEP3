@@ -1,4 +1,4 @@
-package model;
+package via.sep3.logic.model;
 
 public class Location
 {
