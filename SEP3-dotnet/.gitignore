@@ -15,3 +15,17 @@ SEP3-dotnet/BlazorWASM/obj
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mac desktop service store files
+.DS_Store
+
+**/.idea/**/*.iml
+**/.idea/**/contentModel.xml
+**/.idea/**/modules.xml
