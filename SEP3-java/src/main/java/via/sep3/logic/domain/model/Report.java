@@ -1,4 +1,4 @@
-package via.sep3.logic.model;
+package via.sep3.logic.domain.model;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -10,14 +10,16 @@ public class Report
     private byte[] proof;       //this allows one image as of now
     private String description;
     private String status;
+    private Location location;
 
-    public Report(LocalDate date, LocalTime time, byte[] proof, String description, String status)
+    public Report(LocalDate date, LocalTime time, byte[] proof, String description, String status, Location location)
     {
         this.date = date;
         this.time = time;
         this.proof = proof;
         this.description = description;
         this.status = status;
+        this.location = location;
     }
 
     public LocalDate getDate()
@@ -43,6 +45,11 @@ public class Report
     public String getStatus()
     {
         return status;
+    }
+
+    public Location getLocation()
+    {
+        return location;
     }
 
     public void setStatus(String status)
