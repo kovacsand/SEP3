@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "via.sep3.logic.protobuf";
+option java_package = "via.sep3.logic.protobuf.report";
 
 service Report {
   rpc GetReports(ReportFilter) returns (ReportList);
