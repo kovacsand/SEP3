@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XBAvoZ4KPQGM/Ek+yj46QbExW1qZUKn1ir9sI4smulGioro+2sx/y8Jr6cuUpWEj+9ZCvn/Quxws/K/+HeCghg==",
+  "dgSpecHash": "MWVNr+3azR5B0Gg4IBq6HpzBYaBF54Q67oKXw/5N08HBclq43JjKpQxTw89duFDeUGYXk45hwPkTFuaNHUpWng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kandr\\SEP3\\SEP3-dotnet\\HttpClients\\HttpClients.csproj",
+  "projectFilePath": "C:\\Users\\sofia\\RiderProjects\\SEP3\\SEP3\\SEP3-dotnet\\HttpClients\\HttpClients.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
