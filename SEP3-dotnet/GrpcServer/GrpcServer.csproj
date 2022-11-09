@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+      <Content Include="bin\Debug\net6.0\appsettings.json" />
+      <Content Include="bin\Debug\net6.0\Google.Protobuf.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.AspNetCore.Server.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.Core.Api.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.Net.Client.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.Net.ClientFactory.dll" />
+      <Content Include="bin\Debug\net6.0\Grpc.Net.Common.dll" />
+      <Content Include="bin\Debug\net6.0\GrpcServer.deps.json" />
+      <Content Include="bin\Debug\net6.0\GrpcServer.dll" />
+      <Content Include="bin\Debug\net6.0\GrpcServer.exe" />
+      <Content Include="bin\Debug\net6.0\GrpcServer.pdb" />
+      <Content Include="bin\Debug\net6.0\GrpcServer.runtimeconfig.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ReportRepo\ReportRepo.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Protos\Report.proto" GrpcServices="Server" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.AspNetCore" Version="2.50.0-pre1" />
+      <PackageReference Include="Grpc.Tools" Version="2.50.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+</Project>

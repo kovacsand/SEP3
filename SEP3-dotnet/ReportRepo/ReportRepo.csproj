@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Domain\Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net6.0\Domain.dll" />
+      <Content Include="bin\Debug\net6.0\Domain.pdb" />
+      <Content Include="bin\Debug\net6.0\ReportRepo.deps.json" />
+      <Content Include="bin\Debug\net6.0\ReportRepo.dll" />
+      <Content Include="bin\Debug\net6.0\ReportRepo.pdb" />
+    </ItemGroup>
+
+</Project>

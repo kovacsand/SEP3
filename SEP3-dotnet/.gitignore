@@ -1,5 +1,5 @@
-SEP3-dotnet/BlazorWASM/bin
-SEP3-dotnet/BlazorWASM/obj
+*/bin/*
+*/obj/*
 
 
 # Default ignored files
